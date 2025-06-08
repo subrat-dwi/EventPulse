@@ -4,7 +4,9 @@
 ### **Technology Stack:** Flutter, Firebase, Firestore  
 ### **Purpose:** A light-weight app/web tool for clubs to run live polls, Q&As or collect instant feedback during events.
 
----
+## Visit - [Event Pulse](https://event-pulse-ffa53.web.app/) ↗️
+
+
 
 ## **📌 Project Overview**
 The Event Pulse allows users to:
