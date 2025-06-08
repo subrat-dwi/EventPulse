@@ -6,6 +6,9 @@
 
 ## Visit - [Event Pulse](https://event-pulse-ffa53.web.app/) ↗️
 
+### Example
+use this poll id `kwHTrpGvqIEzLaAPWuzt` to join a pre-created poll.
+
 
 
 ## **📌 Project Overview**
