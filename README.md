@@ -25,8 +25,8 @@ The Event Pulse allows users to:
 
 ### **2️⃣ Clone Repository & Install Dependencies**
 ```sh
-git clone <repository_url>
-cd poll_voting_app
+git clone https://github.com/subrat-dwi/EventPulse
+cd event_pulse
 flutter pub get
 ```
 
@@ -49,9 +49,6 @@ lib/
 │   ├── join_poll.dart    # Poll voting interface
 │   ├── poll_results.dart # Poll results display
 │   ├── view_polls.dart   # View user's created polls
-├── widgets/
-│   ├── poll_card.dart    # UI component for listing polls
-│   ├── poll_dialog.dart  # Custom dialog for joining polls
 ```
 
 ---
@@ -68,7 +65,7 @@ Stores poll metadata:
   "questions": [
     {
       "questionId": "q1",
-      "text": "Which language do you prefer?",
+      "question": "Which language do you prefer?",
       "choices": ["Python", "JavaScript", "C++"]
     }
   ]
