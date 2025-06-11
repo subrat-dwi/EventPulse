@@ -20,30 +20,6 @@ The Event Pulse allows users to:
 
 ---
 
-## **🛠️ Setup & Installation**
-### **1️⃣ Prerequisites**
-- Install Flutter SDK: [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
-- Configure Firebase:
-  - Enable Cloud Firestore for real-time database functionality. 
-  - Enable Firestore & Authentication (Anonymous Sign-in)
-  - Add Firebase SDKs to `pubspec.yaml`
-
-### **2️⃣ Clone Repository & Install Dependencies**
-```sh
-git clone https://github.com/subrat-dwi/EventPulse
-cd event_pulse
-flutter pub get
-```
-
-### **3️⃣ Configure Firebase**
-Run:
-```sh
-flutterfire configure
-```
-Ensure **`firebase_options.dart`** is generated and included.
-
----
-
 ## **📜 Application Structure**
 ```yaml
 lib/
@@ -109,8 +85,6 @@ Stores user responses:
 - 🔗 **Sharing Poll Links** → Enable users to copy & share poll links.
 
 ---
-
-Absolutely! Based on our conversations, here are the **major issues** you faced during this project and how you tackled them:
 
 ### **🚨 Major Issues Faced**
 #### **1️⃣ White Screen on Deployment (Flutter Web)**
